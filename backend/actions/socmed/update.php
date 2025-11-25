@@ -1,0 +1,29 @@
+<?php 
+include '../../app.php';
+include './show.php';
+
+if(isset($_POST['tombol'])){
+$icon = escapeString($_POST['icon']);
+$link = escapeString($_POST['link']);
+}
+    //update sesuai id
+    $qUpdate = "UPDATE socmeds SET icon='$icon', link='$link' WHERE id='$id'";
+
+    $result = mysqli_query($connect, $qUpdate) or die(mysqli_error($connect));
+    if($result){
+        echo "
+        <script>
+            alert('data berhasil diubah')
+            window.location.href='../../pages/socmed/index.php';
+            </script>
+            ";
+    }else{
+        echo "
+        <script>
+        alert('data gagal diubah');
+        window.location.href='../../pages/socmed/edit.php';
+        </script>
+        ";
+    
+}
+?>
