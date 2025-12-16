@@ -24,8 +24,8 @@ include '../../partials/navbar.php';
                         <input type="number" name="percent" class="form-control" id="percentInput" placeholder="paste link disini" required value="<?= $skill->percent ?>">
                     </div>
                     <div class="mb-3">
+                        <label for="imageInput" class="form-label d-block">Gambar</label>
                         <img class="w-25" src="../../../storages/skill/<?=$skill->image?>">
-                        <label for="imageInput" class="form-label"></label>
                         <input type="file" name="image" class="form-control" id="imageInput">
                     </div>
                     <div class="mb-3">

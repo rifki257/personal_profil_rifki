@@ -20,8 +20,8 @@ $result = mysqli_query($connect, $projects) or die(mysqli_error($connect));
                     <div class="tabel-responsive">
                         <table class="table table-bordered">
                             <thead>
-                                <tr class="text-capitalize">
-                                    <th>Nomor</th>
+                                <tr class="text-capitalize text-center">
+                                    <th>no</th>
                                     <th>Gambar</th>
                                     <th>judul</th>
                                     <th>Pekerjaan</th>
@@ -35,7 +35,7 @@ $result = mysqli_query($connect, $projects) or die(mysqli_error($connect));
                                 $no = 1;
                                 while ($item = $result->fetch_object()):
                                 ?>
-                                    <tr class="align-middle">
+                                    <tr class="align-middle text-center">
                                         <td><?= $no ?></td>
                                         <td>
                                             <img src="../../../storages/project/<?= $item->image ?>" alt="Gambar" width="100" height="100">

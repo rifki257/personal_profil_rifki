@@ -21,8 +21,8 @@ $result = mysqli_query($connect, $socmed) or die(mysqli_error($connect));
                     <div class="tabel-responsive">
                         <table class="table table-bordered">
                             <thead>
-                                <tr>
-                                    <th>Nomor</th>
+                                <tr class="text-capitalize text-center">
+                                    <th>no</th>
                                     <th>Ikon</th>
                                     <th>link</th>
                                     <th>Aksi</th>
@@ -33,7 +33,7 @@ $result = mysqli_query($connect, $socmed) or die(mysqli_error($connect));
                                 $no = 1;
                                 while ($item = $result->fetch_object()):
                                 ?>
-                                    <tr class="align-middle">
+                                    <tr class="align-middle text-center">
                                         <td><?= $no ?></td>
                                         <td class="text-center"><i class="<?= $item->icon ?>" style="font-size: 65px"></i></td>
                                         <td class="text-truncate" style="max-width: 200px;"><?= $item->link ?></td>

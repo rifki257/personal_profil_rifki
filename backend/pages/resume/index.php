@@ -19,8 +19,8 @@ $result = mysqli_query($connect, $resumes) or die(mysqli_error($connect));
                 <div class="tabel-responsive">
                     <table class="table table-bordered">
                         <thead>
-                            <tr>
-                                <th>Nomor</th>
+                            <tr class="text-capitalize text-center">
+                                <th>no</th>
                                 <th>Periode</th>
                                 <th>Pekerjaan</th>
                                 <th>Sekolah</th>
@@ -34,7 +34,7 @@ $result = mysqli_query($connect, $resumes) or die(mysqli_error($connect));
                             $no = 1;
                             while ($item = $result->fetch_object()):
                             ?>
-                                <tr class="align-middle">
+                                <tr class="align-middle text-center">
                                     <td><?= $no ?></td>
                                     <td><?= $item->date ?></td>
                                     <td class="text-capitalize"><?= $item->job ?></td>

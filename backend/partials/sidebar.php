@@ -133,7 +133,7 @@ $result = mysqli_query($connect, $abouts) or die(mysqli_error($connect));
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../about/index.php" aria-expanded="false">
-                <span class="hide-menu">About</span>
+                <span class="hide-menu">Beranda</span>
               </a>
             </li>
 
@@ -144,32 +144,32 @@ $result = mysqli_query($connect, $abouts) or die(mysqli_error($connect));
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../contact/index.php" aria-expanded="false">
-                <span class="hide-menu">Contact</span>
+                <span class="hide-menu">Kontak</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../project/index.php" aria-expanded="false">
-                <span class="hide-menu">project</span>
+                <span class="hide-menu">Projek</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../resume/index.php" aria-expanded="false">
-                <span class="hide-menu">resume</span>
+                <span class="hide-menu">Resume</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../skill/index.php" aria-expanded="false">
-                <span class="hide-menu">skill</span>
+                <span class="hide-menu">Skil</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../service/index.php" aria-expanded="false">
-                <span class="hide-menu">service</span>
+                <span class="hide-menu">Servis</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="../socmed/index.php" aria-expanded="false">
-                <span class="hide-menu">socmed</span>
+                <span class="hide-menu">Sosmed</span>
               </a>
             </li>
             <li class="sidebar-item">

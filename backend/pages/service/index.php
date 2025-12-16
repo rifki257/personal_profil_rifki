@@ -20,8 +20,8 @@
                 <div class="tabel-responsive">
                     <table class="table table-bordered">
                         <thead>
-                            <tr >
-                                <th>Nomor</th>
+                            <tr class="text-capitalize text-center">
+                                <th>no</th>
                                 <th>Ikon</th>
                                 <th>Pekerjaan</th>
                                 <th>keterangan</th>
@@ -34,7 +34,7 @@
                             $no = 1;
                             while($item = $result->fetch_object()):
                             ?>
-                                <tr class="align-middle">
+                                <tr class="align-middle text-center">
                                     <td><?= $no ?></td>
                                     <td class="text-center"><i class="<?= $item->icon ?>" style="font-size: 65px"></i></td>
                                     <td><?= $item->job ?></td>

@@ -20,8 +20,8 @@ include '../../partials/navbar.php';
                         <input type="text" name="name" class="form-control" id="nameInput" placeholder="masukkan nama" required value="<?= $about->name ?>">
                     </div>
                     <div class="mb-3">
+                        <label for="imageInput" class="form-label d-block">Gambar</label>
                         <img class="w-25" src="../../../storages/about/<?= $about->image ?>">
-                        <label for="imageInput" class="form-label"></label>
                         <input type="file" name="image" class="form-control" id="imageInput">
                     </div>
                     <div class="mb-3">

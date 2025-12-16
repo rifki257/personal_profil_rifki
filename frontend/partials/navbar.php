@@ -9,15 +9,15 @@
 
       <nav id="navmenu" class="navmenu" style="user-select: none;">
         <ul style="user-select: none;">
-          <li style="user-select: none;"><a href="#hero" class="active" style="user-select: none;">Home</a></li>
-          <li style="user-select: none;"><a href="#about" style="user-select: none;">About</a></li>
+          <li style="user-select: none;"><a href="#hero" class="active" style="user-select: none;">Beranda</a></li>
+          <li style="user-select: none;"><a href="#about" style="user-select: none;">Tentang saya</a></li>
           <li style="user-select: none;"><a href="#blog" style="user-select: none;">Blog</a></li>
-          <li style="user-select: none;"><a href="#services" style="user-select: none;">Service</a></li>
+          <li style="user-select: none;"><a href="#services" style="user-select: none;">Servis</a></li>
           <li style="user-select: none;"><a href="#resume" style="user-select: none;">Resume</a></li>
-          <li style="user-select: none;"><a href="#project" style="user-select: none;">Project</a></li>
+          <li style="user-select: none;"><a href="#project" style="user-select: none;">Projek</a></li>
           <li style="user-select: none;"><a href="#skill" style="user-select: none;">Skill</a></li>
           <!-- <li style="user-select: none;"><a href="#stats" style="user-select: none;">Total_project</a></li> -->
-          <li style="user-select: none;"><a href="#contact" style="user-select: none;">Contact</a></li>
+          <li style="user-select: none;"><a href="#contact" style="user-select: none;">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list" style="user-select: none;"></i>
       </nav>
